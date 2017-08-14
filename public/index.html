@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <script src="js/clientApp.js"></script>
+
+      <div id="app">
+        <!-- Barra in alto -->
+        <nav>
+          <div class="nav-wrapper">
+            <a class="brand-logo center">TeleComando</a>
+          </div>
+        </nav>
+
+      <!-- Pulsanti -->
+        <div class="row center" style="margin-top:5em">
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="fullscreen()"><i class="material-icons">fullscreen</i></a>
+        </div>
+
+        <div class="row center" style="margin-top:3em">
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="audiodown()"><i class="material-icons">volume_down</i></a>
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="mute()"><i class="material-icons">volume_off</i></a>
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="audioup()"><i class="material-icons">volume_up</i></a>
+        </div>
+
+        <div class="row center" style="margin-top:3em">
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="back()"><i class="material-icons">arrow_back</i></a>
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="forward()"><i class="material-icons">arrow_forward</i></a>
+        </div>
+
+        <div class="row center" style="margin-top:3em">
+          <a class="btn-floating btn-large waves-effect waves-light blue" onclick="playPause()"><i class="material-icons">pause</i></a>
+        </div>
+
+      </div> <!-- Viene chiuso il div dell'app -->
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>

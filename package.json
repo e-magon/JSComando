@@ -1,0 +1,17 @@
+{
+  "name": "telecomando",
+  "version": "1.0.0",
+  "description": "Telecomando per comandare video di Youtube, Netflix o VLC",
+  "main": "serverApp.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "os": "^0.1.1",
+    "robotjs": "^0.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahab Hyde",
+  "license": "MIT"
+}
