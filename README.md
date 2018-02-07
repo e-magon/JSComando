@@ -1,5 +1,5 @@
 # TeleComando
-Telecomando per comandare video di Youtube, Netflix o VLC
+Telecomando per comandare video di Youtube, Netflix o VLC tramite un altro dispositivo (telefono, tablet o pc)
 
 ![Esempio](http://i.imgur.com/zZdT8le.png)
 
